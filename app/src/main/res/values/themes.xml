@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Messenger" parent="Theme.Material3.DayNight.NoActionBar">
+<!--        <item name="colorPrimary">@color/white</item>-->
+        <!-- Customize your light theme here. -->
+<!--         <item name="colorPrimary">@color/white</item>-->
+    </style>
+
+    <style name="Theme.Messenger" parent="Base.Theme.Messenger" />
+    <style name="dialoge">
+<!--        <item name="colorPrimary">@color/white</item> -->
+        <item name="android:windowBackground">@drawable/empty_background</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowMinWidthMajor">80%</item>
+        <item name="windowActionBar">false</item>
+
+    </style>
+    <style name="YourFullscreenTheme" parent="Theme.AppCompat.Light">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>
